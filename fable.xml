@@ -2,8 +2,8 @@
   
 	<page background="bg_lab.png".png" soundtrack="intro.wav">
   
-		<agent 
-      text="O pequeno Cavaleiro" font-size="20" x="20" y="460" 
+	<agent 
+      text="Cavaleiro negro" font-size="20" x="20" y="460" 
       width="400"
       color="aliceblue"/>
       
