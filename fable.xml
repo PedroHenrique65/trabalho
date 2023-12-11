@@ -42,9 +42,9 @@
 
     <agent 
       text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
-      width="400" on-trigger="cortada"> 
+      width="400" on-trigger="destruido"> 
     
-    	<cortada text="O caminhos está livre!" />
+    	<destruido text="O caminhos está livre!" />
     </agent>
     
     <agent 
@@ -63,8 +63,8 @@
     <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
     
     <agent img="Sign_2.png" x="385" y="150" width="50" height="50" on-touch="_NEXT_PAGE" />
-    <agent img="Skeleton.png" x="250" y="100" width="300" height="100" on-touch="cortada">
-      <cortada img="Bone (1).png" x="320" width="150" height="50" />
+    <agent img="Skeleton.png" x="250" y="100" width="300" height="100" on-touch="destruido">
+      <destruido img="Bone (1).png" x="320" width="150" height="50" />
     </agent>
   
   </page>
