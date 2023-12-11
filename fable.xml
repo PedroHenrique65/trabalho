@@ -72,7 +72,7 @@
   <page background="bg.png" soundtrack="song.mp3">
 
     <agent 
-      text="Precisamos abrir a porta" font-size="18" x="20" y="450" 
+      text="Precisamos ir por aquela passagem" font-size="18" x="20" y="450" 
       width="400" 
       color="aliceblue"/>
     
