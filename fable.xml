@@ -1,6 +1,6 @@
 <fable>
   
-	<page background="bg_lab.png".png" soundtrack="intro.wav">
+	<page background="bg_lab.png" soundtrack="intro.wav">
   
 	<agent 
       text="O resgate do cavaleiro" font-size="20" x="20" y="460" 
@@ -41,7 +41,7 @@
   <page background="bg_lab.png" soundtrack="song.mp3">
 
     <agent 
-      text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
+      text="Ao prosseguir para a missão, sir Alden se separa com um monstro feito de ossos..." font-size="18" x="20" y="450" 
       width="400" color="aliceblue" on-trigger="destruido"> 
     
     	<destruido text="O caminhos está livre!" />
