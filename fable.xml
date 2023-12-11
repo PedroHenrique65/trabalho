@@ -1,6 +1,215 @@
 <fable>
-	<page>
   
+	<page background="bg.png" soundtrack="intro.wav">
+  
+		<agent 
+      text="O pequeno Cavaleiro" font-size="20" x="20" y="460" 
+      width="400" />
+    
+    <agent 
+      text="Era uma vez, um pequeno cavaleiro que recebeu uma carta de um amigo." 
+      x="20" y="400" width="300" />
+    
+    <agent 
+      text="Ele ficou muito muito surpreso, pois esse amigo tinha sumido a anos." 
+      x="20" y="350" width="300" />
+    
+    <agent 
+      text="Só que as notícias na carta não eram muito boas. O seu amigo tinha contraído uma doença mistériosa e precisava de ajuda para pegar a cura." x="20" y="270" width="300" />
+    
+    <agent 
+      text="O mais rápido que pôde ele foi ao encontro desse amigo." x="20" y="220" width="300"/>
+    
+		<agent img="block.png" x="250" y="-25" width="100" height="100" />
+		<agent img="13.png" x="430" y="150" width="75" height="50" />
+    
+		<agent img="Sign_2.png" x="430" y="200" width="50" height="50" on-touch="_GOTO_PAGE:2" />
+
+    <agent img="Idle (1).png" x="260" y="65" width="80" height="100" />
+  
+  </page>
+  
+  <page background="bg.png" soundtrack="song.mp3">
+
+    <agent 
+      text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
+      width="400" on-trigger="cortada"> 
+    
+    	<cortada text="O caminhos está livre!" />
+    </agent>
+    
+    <agent 
+      text="Parece que há algo escondido... será se podemos cortar a àrvore?" 
+      x="20" y="400" width="300" on-trigger="cortada">
+    
+    	<cortada y="410" text="Toque na placa para prosseguir na jornada" />
+    </agent>
+
+    <agent img="1.png" x="0" y="0" width="100" height="100" />
+    <agent img="2.png" x="100" y="0" width="100" height="100" />
+    <agent img="2.png" x="200" y="0" width="100" height="100" />
+    <agent img="2.png" x="300" y="0" width="100" height="100" />
+    <agent img="2.png" x="400" y="0" width="100" height="100" />
+
+    <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
+    
+    <agent img="Sign_2.png" x="385" y="150" width="50" height="50" on-touch="_NEXT_PAGE" />
+    <agent img="Tree_2.png" x="250" y="100" width="300" height="300" on-touch="cortada">
+      <cortada img="Tree_1.png" x="320" width="150" height="50" />
+    </agent>
+  
+  </page>
+  
+  <page background="bg.png" soundtrack="song.mp3">
+
+    <agent 
+      text="Precisamos abrir a porta" font-size="18" x="20" y="450" 
+      width="400" />
+    
+    <agent 
+      text="O que acontece se tocar no painel de controle?" 
+      x="20" y="400" width="300" on-trigger="unlocked"> 
+    	
+    	<unlocked y="410" text="Agora é só abrirmos a porta" />
+    </agent>
+
+    <agent img="1.png" x="0" y="0" width="100" height="100" />
+    <agent img="2.png" x="100" y="0" width="100" height="100" />
+    <agent img="2.png" x="200" y="0" width="100" height="100" />
+    <agent img="2.png" x="300" y="0" width="100" height="100" />
+    <agent img="2.png" x="400" y="0" width="100" height="100" />
+
+    <agent img="Bush.png" x="20" y="100" width="100" height="60" />
+    <agent img="block.png" x="310" y="100" width="200" height="200" />
+    
+    <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
+    
+    <agent 
+      img="switchLock.png" x="340" y="100" width="20" 
+      height="75" on-touch="unlocked">		 
+    	
+      <unlocked img="switchUnlocked.png" />    
+    </agent>
+    
+    <agent 
+      img="locked.png" x="375" y="100" width="75" 
+      height="110" on-trigger="unlocked">
+    	
+      <unlocked img="unlocked.png" on-touch="open" />
+      <open img="open.png" on-touch="_NEXT_PAGE" />
+    </agent>
+  
+  </page>
+
+	<page background="bg_lab.png" soundtrack="song.mp3">
+    
+    <agent text="Nossa! um monte espinhos... será que conseguimos explodi-los?" 
+      x="20" y="410" font-size="18" color="white" 
+      width="300" on-trigger="outscreen">
+      
+    	<outscreen text="Acesso liberado! agora vamos salvar o meu amigo!!" />
+    </agent>
+    
+    <agent img="floor.png" x="0" y="0" width="100" height="100" />
+    <agent img="floor2.png" x="100" y="0" width="100" height="100" />
+    <agent img="floor2.png" x="200" y="0" width="100" height="100" />
+    <agent img="floor2.png" x="300" y="0" width="100" height="100" />
+    <agent img="floor3.png" x="400" y="0" width="100" height="100" />     
+    
+    <agent 
+      img="locked.png" x="415" y="100" width="75" 
+      height="110" on-touch="open">
+    	
+      <open img="open.png" on-touch="_NEXT_PAGE" />
+    </agent>
+    
+    <agent img="Spike.png" x="400" y="100" width="100" height="150" drop-zone="explode">
+    	<explode y="-200" />
+    </agent>   
+    
+    <agent 
+      img="Barrel.png" x="20" y="100" width="50" height="60" 
+      draggable="true" on-drop="explode" on-zone="outscreen" 
+      on-trigger="outscreen">
+    
+      <outscreen y="-200" /> 
+    </agent> 
+  
+    <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
     
   </page>
+  
+  <page background="bg.png" soundtrack="song.mp3">
+    
+    <agent 
+      text="Amigo! ... Rápido encontre a chave para abrir o baú" 
+      x="20" y="440" font-size="18" 
+      width="300" on-trigger="after-chestopen">
+      
+    	<after-chestopen text="Rápido! Salve o meu amigo!! " />
+    </agent>
+    
+    <agent img="1.png" x="0" y="0" width="100" height="100" />
+    <agent img="2.png" x="100" y="0" width="100" height="100" />
+    <agent img="2.png" x="200" y="0" width="100" height="100" />
+    <agent img="2.png" x="300" y="0" width="100" height="100" />
+    <agent img="2.png" x="400" y="0" width="100" height="100" />     
+    
+    <agent img="box.png" x="10" y="100" width="50" height="50" />
+    <agent img="box.png" x="65" y="100" width="50" height="50" />
+  
+    <agent img="Idle (1).png" x="120" y="90" width="80" height="100" />
+    
+  	<agent 
+      img="portion.png" x="430" y="100" width="40" height="40" 
+      draggable="true" on-drop="lived" on-zone="theend">
+    
+      <after-chestopen y="100" /> 
+    </agent> 
+    
+    <agent 
+      img="chest.png" x="415" y="90" width="75" 
+      height="75" drop-zone="chestopen">
+    	
+      <chestopen y="-200" />
+    </agent>
+    
+    <agent 
+      img="key.png" x="20" y="150" width="50" height="50" 
+      draggable="true" on-drop="chestopen" on-zone="after-chestopen" 
+      on-trigger="after-chestopen">
+    	
+      <after-chestopen y="-200" />
+    </agent>   
+    
+    <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
+    
+    <agent 
+      img="ninja_dead.png" x="300" y="90" width="100" height="100" 
+      drop-zone="lived">
+    
+      <lived img="ninja.png" y="95" width="45" height="70" />
+    </agent>
+    
+    <agent img="Sign_2.png" x="430" y="-50" width="50" height="50" 
+      on-touch="_NEXT_PAGE" on-trigger="theend">
+    	
+      <theend y="100" />
+      
+    </agent>
+    
+  </page>
+  
+  <page background="bg.png">
+    
+		<agent img="1.png" x="0" y="0" width="100" height="100" />
+    <agent img="2.png" x="100" y="0" width="100" height="100" />
+    <agent img="2.png" x="200" y="0" width="100" height="100" />
+    <agent img="2.png" x="300" y="0" width="100" height="100" />
+    <agent img="2.png" x="400" y="0" width="100" height="100" />  
+    
+    <agent text="FIM" x="190" y="220" font-size="70" />
+    
+  </page>
+  
 </fable>
