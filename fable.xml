@@ -157,7 +157,7 @@
     <agent 
       text="Amigo! ... Rápido encontre a chave para abrir o baú" 
       x="20" y="440" font-size="18" 
-      width="300" color="aliceblue"on-trigger="after-chestopen">
+      width="300" color="aliceblue" on-trigger="after-chestopen">
       
     	<after-chestopen text="Rápido! Salve o meu amigo!! " />
     </agent>
