@@ -48,7 +48,7 @@
     </agent>
     
     <agent 
-      text="Parece que há algo escondido... será se podemos cortar a àrvore?" 
+      text="O monstro está bloqueando a passagem, o que devo fazer?" 
       x="20" y="400" width="300" color="aliceblue" on-trigger="cortada">
     
     	<cortada y="410" text="Toque na placa para prosseguir na jornada"
