@@ -50,10 +50,8 @@
     <agent 
       text="O monstro está bloqueando a passagem, o que devo fazer?" 
       x="20" y="400" width="300" color="aliceblue" on-trigger="cortada">
-    <agent 
-      text="Ataque o monstro pra ver o que acontece" 
-      x="20" y="400" width="300" color="aliceblue" on-trigger="cortada">
-        
+
+        Ataque o monstro pra ver o que acontece
     	<cortada y="410" text="Toque na placa para prosseguir na jornada"
         color="aliceblue"/>
     </agent>
