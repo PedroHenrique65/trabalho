@@ -114,7 +114,8 @@
 
 	<page background="bg_lab.png" soundtrack="song.mp3">
     
-    <agent text="Nossa! um monte espinhos... será que conseguimos explodi-los?" 
+    <agent text="Caraca! a porta está congelada... como vou passar por ai?
+        " 
       x="20" y="410" font-size="18" color="white" 
       width="300" on-trigger="outscreen">
       
