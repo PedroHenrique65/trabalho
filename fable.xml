@@ -38,7 +38,7 @@
   
   </page>
   
-  <page background="bg.png" soundtrack="song.mp3">
+  <page background="bg_lab.png" soundtrack="song.mp3">
 
     <agent 
       text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
