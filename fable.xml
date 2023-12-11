@@ -3,13 +3,13 @@
 	<page background="bg_lab.png".png" soundtrack="intro.wav">
   
 	<agent 
-      text="Cavaleiro negro" font-size="20" x="20" y="460" 
+      text="O resgate do cavaleiro" font-size="20" x="20" y="460" 
       width="400"
       color="aliceblue"/>
       
     
     <agent 
-      text="Em meados do século XV, um cavaleiro recebeu uma missão" 
+      text="sir Alden, um valente cavaleiro, tinha a missão de libertar uma princesa presa em um castelo sombrio. " 
       x="20" y="400" width="300" 
       color="aliceblue"/>
     
