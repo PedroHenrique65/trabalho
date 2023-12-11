@@ -152,7 +152,7 @@
     
   </page>
   
-  <page background="bg.png" soundtrack="song.mp3">
+  <page background="bg_lab.png" soundtrack="song.mp3">
     
     <agent 
       text="Amigo! ... Rápido encontre a chave para abrir o baú" 
