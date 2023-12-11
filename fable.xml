@@ -69,7 +69,7 @@
   
   </page>
   
-  <page background="bg.png" soundtrack="song.mp3">
+  <page background="bg_lab.png" soundtrack="song.mp3">
 
     <agent 
       text="Precisamos ir por aquela passagem" font-size="18" x="20" y="450" 
@@ -77,10 +77,10 @@
       color="aliceblue"/>
     
     <agent 
-      text="O que acontece se tocar no painel de controle?" 
+      text="Toque no painel para que abra a passagem" 
       x="20" y="400" width="300" color="aliceblue" on-trigger="unlocked"> 
     	
-    	<unlocked y="410" text="Agora é só abrirmos a porta" 
+    	<unlocked y="410" text="Agora é só tocar na porta para que ela a" 
         color="aliceblue"/>
     </agent>
 
