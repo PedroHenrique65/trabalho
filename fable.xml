@@ -30,7 +30,7 @@
       color="aliceblue"/>
     
 		<agent img="Tile (5).png" x="250" y="-25" width="100" height="100" />
-		<agent img="13.png" x="430" y="150" width="75" height="50" />
+		<agent img="Tile (11).png" x="430" y="150" width="75" height="50" />
     
 		<agent img="SignArrow.png" x="430" y="200" width="50" height="50" on-touch="_GOTO_PAGE:2" />
 
