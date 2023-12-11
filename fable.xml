@@ -52,7 +52,7 @@
       x="20" y="400" width="300" color="aliceblue" on-trigger="cortada">
     
     	<cortada y="410" text="Toque na placa para prosseguir na jornada"
-            color="aliceblue"/>
+        color="aliceblue"/>
     </agent>
 
     <agent img="1.png" x="0" y="0" width="100" height="100" />
@@ -74,13 +74,15 @@
 
     <agent 
       text="Precisamos abrir a porta" font-size="18" x="20" y="450" 
-      width="400" />
+      width="400" 
+      color="aliceblue"/>
     
     <agent 
       text="O que acontece se tocar no painel de controle?" 
-      x="20" y="400" width="300" on-trigger="unlocked"> 
+      x="20" y="400" width="300" color="aliceblue" on-trigger="unlocked"> 
     	
-    	<unlocked y="410" text="Agora é só abrirmos a porta" />
+    	<unlocked y="410" text="Agora é só abrirmos a porta" 
+        color="aliceblue"/>
     </agent>
 
     <agent img="1.png" x="0" y="0" width="100" height="100" />
