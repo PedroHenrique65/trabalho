@@ -60,7 +60,7 @@
     <agent img="Tile (5).png" x="300" y="0" width="100" height="100" />
     <agent img="Tile (5).png" x="400" y="0" width="100" height="100" />
 
-    <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
+    <agent img="cavaleiro.png" x="100" y="90" width="80" height="100" />
     
     <agent img="SignArrow.png" x="305" y="120" width="50" height="50" on-touch="_NEXT_PAGE" />
         <agent img="imagem_2021-12-27_120342-removebg-preview.png" x="250" y="70" width="300" height="200" on-touch="destruido">
@@ -148,7 +148,7 @@
       <outscreen y="-200" /> 
     </agent> 
   
-    <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
+    <agent img="cavaleiro.png" x="100" y="90" width="80" height="100" />
     
   </page>
   
@@ -171,7 +171,7 @@
     <agent img="box.png" x="10" y="100" width="50" height="50" />
     <agent img="box.png" x="65" y="100" width="50" height="50" />
   
-    <agent img="Idle (1).png" x="120" y="90" width="80" height="100" />
+    <agent img="cavaleiro.png" x="120" y="90" width="80" height="100" />
     
   	<agent 
       img="portion.png" x="430" y="100" width="40" height="40" 
