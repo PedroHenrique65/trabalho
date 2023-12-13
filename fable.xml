@@ -21,8 +21,7 @@
     <agent 
       text="O mais rápido que pôde ele foi ao encontro desse amigo." x="20" y="220" width="300"/>
     <agent 
-      text="Toque na placa para prosseguir." x="20" y="190" width="300"
-/>
+      text="Toque na placa para prosseguir." x="20" y="190" width="300"/>
     
 		<agent img="block.png" x="250" y="-25" width="100" height="100" />
 		<agent img="13.png" x="430" y="150" width="75" height="50" />
@@ -37,7 +36,7 @@
 
     <agent 
       text="Ao prosseguir para a missão, sir Alden se separa com um dragão gigante..." font-size="18" x="20" y="450" 
-      width="400" color="aliceblue" on-trigger="destruido"> 
+      width="400" on-trigger="destruido"> 
     	<destruido text="O caminhos está livre!" />
     </agent>
     
@@ -45,8 +44,7 @@
       text="O monstro está bloqueando a passagem, Ataque o monstro!" 
       x="20" y="400" width="300" color="aliceblue" on-trigger="destruido">
     
-    	<destruido y="410" text="Toque na placa para continuar sua jornada"
-        color="aliceblue"/>
+    	<destruido y="410" text="Toque na placa para continuar sua jornada"/>
     </agent>
 
     <agent img="1.png" x="0" y="0" width="100" height="100" />
@@ -68,15 +66,13 @@
 
     <agent 
       text="Precisamos ir por aquela passagem" font-size="18" x="20" y="450" 
-      width="400" 
-      color="aliceblue"/>
+      width="400"/>
     
     <agent 
       text="Toque no painel para que abra a passagem" 
       x="20" y="400" width="300" color="aliceblue" on-trigger="unlocked"> 
     	
-    	<unlocked y="410" text="Agora é só tocar na porta para que ela abra" 
-        color="aliceblue"/>
+    	<unlocked y="410" text="Agora é só tocar na porta para que ela abra"/>
     </agent>
 
     <agent img="1.png" x="0" y="0" width="100" height="100" />
