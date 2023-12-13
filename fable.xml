@@ -1,6 +1,6 @@
 <fable>
   
-	<page background="bg_lab.png" soundtrack="intro.wav">
+	<page background="bg1.png" soundtrack="intro.wav">
   
 	<agent 
       text="O resgate do cavaleiro" font-size="20" x="20" y="460" 
