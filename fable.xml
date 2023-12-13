@@ -34,7 +34,7 @@
     
 		<agent img="SignArrow.png" x="430" y="200" width="50" height="50" on-touch="_GOTO_PAGE:2" />
 
-    <agent img="Idle (1).png" x="260" y="65" width="80" height="100" />
+    <agent img="cavaleiro.png" x="260" y="65" width="80" height="100" />
   
   </page>
   
@@ -63,7 +63,7 @@
     <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
     
     <agent img="SignArrow.png" x="305" y="120" width="50" height="50" on-touch="_NEXT_PAGE" />
-        <agent img="imagem_2021-12-27_120342-removebg-preview.png" x="250" y="100" width="300" height="200" on-touch="destruido">
+        <agent img="imagem_2021-12-27_120342-removebg-preview.png" x="250" y="70" width="300" height="200" on-touch="destruido">
       <destruido img="Bone (1).png" x="320" width="150" height="50" />
     </agent>
   
