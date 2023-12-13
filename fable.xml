@@ -108,8 +108,7 @@
     <agent text="Caraca! a porta está congelada... como vou passar por ai?
         Já sei, vou explodir o gelo!
         Arraste o barril até o gelo!" 
-      x="20" y="410" font-size="18" color="white" 
-      width="300" on-trigger="outscreen">
+      x="20" y="410" font-size="18" width="300" on-trigger="outscreen">
       
     	<outscreen text="Acesso liberado! agora vamos salvar o meu amigo!!" />
     </agent>
@@ -139,7 +138,7 @@
       <outscreen y="-200" /> 
     </agent> 
   
-    <agent img="cavaleiro.png" x="100" y="90" width="80" height="150" />
+    <agent img="cavaleiro.png" x="100" y="75" width="80" height="150" />
     
   </page>
   
