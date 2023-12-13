@@ -191,7 +191,7 @@
       img="princesa.png" x="300" y="90" width="100" height="100" 
       drop-zone="lived">
     
-      <lived img="ninja.png" y="95" width="45" height="70" />
+      <lived img="princesa.png" y="95" width="45" height="70" />
     </agent>
     
     <agent img="Sign_2.png" x="430" y="-50" width="50" height="50" 
