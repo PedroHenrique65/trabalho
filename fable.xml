@@ -171,8 +171,8 @@
     </agent> 
     
     <agent 
-      img="unlocked.png" x="415" y="90" width="75" 
-      height="75" drop-zone="chestopen">
+      img="unlocked.png" x="415" y="100" width="75" 
+      height="110" drop-zone="chestopen">
     	
       <chestopen y="-200" />
     </agent>
