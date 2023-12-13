@@ -41,7 +41,7 @@
   <page background="bg1.png" soundtrack="song.mp3">
 
     <agent 
-      text="Ao prosseguir para a missão, sir Alden se separa com um monstro feito de ossos..." font-size="18" x="20" y="450" 
+      text="Ao prosseguir para a missão, sir Alden se separa com um dragão gigante..." font-size="18" x="20" y="450" 
       width="400" color="aliceblue" on-trigger="destruido"> 
     	<destruido text="O caminhos está livre!" />
     </agent>
