@@ -4,30 +4,25 @@
   
 	<agent 
       text="O resgate do cavaleiro" font-size="20" x="20" y="460" 
-      width="400"
-      color="aliceblue"/>
+      width="400"/>
       
     
     <agent 
       text="sir Alden, um valente cavaleiro, tinha a missão de libertar uma princesa presa em um castelo sombrio. " 
-      x="20" y="400" width="300" 
-      color="aliceblue"/>
+      x="20" y="400" width="300"/>
     
     <agent 
       text="Então ele resolveu partir." 
-      x="20" y="350" width="300" 
-      color="aliceblue"/>
+      x="20" y="350" width="300"/>
     
     <agent 
-      text="Só que as notícias na carta não eram muito boas. O seu amigo tinha contraído uma doença mistériosa e precisava de ajuda para pegar a cura." x="20" y="270" width="300" 
-      color="aliceblue"/>
+      text="Só que as notícias na carta não eram muito boas. O seu amigo tinha contraído uma doença mistériosa e precisava de ajuda para pegar a cura." x="20" y="270" width="300"/>
     
     <agent 
-      text="O mais rápido que pôde ele foi ao encontro desse amigo." x="20" y="220" width="300"
-      color="aliceblue"/>
+      text="O mais rápido que pôde ele foi ao encontro desse amigo." x="20" y="220" width="300"/>
     <agent 
       text="Toque na placa para prosseguir." x="20" y="190" width="300"
-      color="aliceblue"/>
+/>
     
 		<agent img="block.png" x="250" y="-25" width="100" height="100" />
 		<agent img="13.png" x="430" y="150" width="75" height="50" />
