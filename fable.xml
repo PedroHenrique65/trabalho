@@ -62,7 +62,7 @@
 
     <agent img="cavaleiro.png" x="100" y="75" width="80" height="150" />
     
-    <agent img="SignArrow.png" x="305" y="120" width="50" height="50" on-touch="_NEXT_PAGE" />
+    <agent img="SignArrow.png" x="305" y="100" width="50" height="50" on-touch="_NEXT_PAGE" />
         <agent img="imagem_2021-12-27_120342-removebg-preview.png" x="250" y="70" width="300" height="200" on-touch="destruido">
       <destruido img="Bone (1).png" x="320" width="150" height="50" />
     </agent>
