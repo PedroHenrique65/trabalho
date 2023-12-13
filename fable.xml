@@ -34,7 +34,7 @@
     
 		<agent img="SignArrow.png" x="430" y="200" width="50" height="50" on-touch="_GOTO_PAGE:2" />
 
-    <agent img="cavaleiro.png" x="260" y="65" width="80" height="100" />
+    <agent img="cavaleiro.png" x="260" y="65" width="80" height="150" />
   
   </page>
   
