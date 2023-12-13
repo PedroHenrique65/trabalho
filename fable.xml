@@ -148,7 +148,7 @@
       <outscreen y="-200" /> 
     </agent> 
   
-    <agent img="cavaleiro.png" x="250" y="50" width="80" height="150" />
+    <agent img="cavaleiro.png" x="100" y="90" width="80" height="100" />
     
   </page>
   
