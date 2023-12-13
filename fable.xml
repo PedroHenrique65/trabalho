@@ -188,7 +188,7 @@
     <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
     
     <agent 
-      img="princesa.png" x="300" y="75" width="80" height="150" 
+      img="princesa.png" x="415" y="75" width="80" height="150" 
       drop-zone="lived">
     
       <lived img="princesa.png" y="95" width="80" height="150" />
