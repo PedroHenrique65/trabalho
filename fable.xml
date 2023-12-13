@@ -188,16 +188,19 @@
     <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
     
     <agent 
-      img="princesa.png" x="415" y="75" width="80" height="150" 
-      drop-zone="lived">
-    
-      <lived img="princesa.png" y="95" width="80" height="150" />
+      img="switchLock.png" x="340" y="100" width="20" 
+      height="75" on-touch="unlocked">		 
+    	
+      <unlocked img="switchUnlocked.png" />    
     </agent>
     
-    <agent img="Sign_2.png" x="430" y="-50" width="50" height="50" 
-      on-touch="_NEXT_PAGE" on-trigger="theend">
+    <agent 
+      img="locked.png" x="375" y="100" width="75" 
+      height="110" on-trigger="unlocked">
     	
-      <theend y="100" />
+      <unlocked img="unlocked.png" on-touch="open" />
+      <open img="open.png" />
+    </agent>
       
     </agent>
     
