@@ -94,7 +94,7 @@
     </agent>
     
     <agent 
-      img="locked.png" x="375" y="100" width="75" 
+      img="door3 (cópia).png" x="375" y="100" width="75" 
       height="110" on-trigger="unlocked">
     	
       <unlocked img="unlocked.png" on-touch="open" />
