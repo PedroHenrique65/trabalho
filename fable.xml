@@ -169,22 +169,7 @@
     
       <after-chestopen y="100" /> 
     </agent> 
-    
-    <agent 
-      img="unlocked.png" x="415" y="100" width="75" 
-      height="110" drop-zone="chestopen">
-    	
-      <chestopen y="-200" />
-    </agent>
-    
-    <agent 
-      img="key.png" x="20" y="150" width="50" height="50" 
-      draggable="true" on-drop="chestopen" on-zone="after-chestopen" 
-      on-trigger="after-chestopen">
-    	
-      <after-chestopen y="-200" />
-    </agent>   
-    
+        
     <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
     
     <agent 
