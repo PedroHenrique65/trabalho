@@ -152,7 +152,7 @@
     	<after-chestopen text="Rápido! Salve o meu amigo!! " />
     </agent>
     
-    <agent img="1.png" x="0" y="0" width="100" height="100" />
+    <agent img="Tile (1).png" x="0" y="0" width="100" height="100" />
     <agent img="Tile (5).png" x="100" y="0" width="100" height="100" />
     <agent img="Tile (5).png" x="200" y="0" width="100" height="100" />
     <agent img="Tile (5).png" x="300" y="0" width="100" height="100" />
