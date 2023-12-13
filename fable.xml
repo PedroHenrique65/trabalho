@@ -120,7 +120,7 @@
     <agent img="sand2.png" x="400" y="0" width="100" height="100" />     
     
     <agent 
-      img="locked.png" x="415" y="100" width="75" 
+      img="unlocked.png" x="415" y="100" width="75" 
       height="110" on-touch="open">
     	
       <open img="open.png" on-touch="_NEXT_PAGE" />
@@ -142,7 +142,7 @@
     
   </page>
   
-  <page background= soundtrack="song.mp3">
+  <page background="noite_dark.png" soundtrack="song.mp3">
     
     <agent 
       text="Amigo! ... Rápido encontre a chave para abrir o baú" 
