@@ -162,12 +162,7 @@
   
     <agent img="cavaleiro.png" x="120" y="75" width="80" height="150" />
     
-  	<agent 
-      img="portion.png" x="430" y="100" width="40" height="40" 
-      draggable="true" on-drop="lived" on-zone="theend">
-    
-      <after-chestopen y="100" /> 
-    </agent> 
+  	
         
     <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
     
