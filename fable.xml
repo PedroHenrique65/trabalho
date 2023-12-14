@@ -162,10 +162,7 @@
   
     <agent img="cavaleiro.png" x="120" y="75" width="80" height="150" />
     
-  	<agent img="box.png" x="10" y="100" width="50" height="50" />
-    <agent img="box.png" x="65" y="100" width="50" height="50" />
-        
-    <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
+  	
     
     <agent 
       img="switchLock.png" x="40" y="100" width="20" 
@@ -173,7 +170,10 @@
     	
       <unlocked img="switchUnlocked.png" />    
     </agent>
-    
+    <agent img="box.png" x="10" y="100" width="50" height="50" />
+    <agent img="box.png" x="65" y="100" width="50" height="50" />
+        
+    <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
     <agent 
       img="locked.png" x="375" y="100" width="75" 
       height="110" on-trigger="unlocked">
