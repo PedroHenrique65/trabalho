@@ -179,7 +179,7 @@
       height="110" on-trigger="unlocked">
     	
       <unlocked img="unlocked.png" on-touch="open" />
-      <open img="open.png" />
+      <open img="open.png" on-touch="_NEXT_PAGE" />
     </agent>
       
     </agent>
