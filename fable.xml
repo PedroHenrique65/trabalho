@@ -173,7 +173,7 @@
     <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
     
     <agent 
-      img="switchLock.png" x="140" y="100" width="20" 
+      img="switchLock.png" x="40" y="100" width="20" 
       height="75" on-touch="unlocked">		 
     	
       <unlocked img="switchUnlocked.png" />    
