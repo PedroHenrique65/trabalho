@@ -158,8 +158,7 @@
     <agent img="Tile (2).png" x="300" y="0" width="100" height="100" />
     <agent img="Tile (2).png" x="400" y="0" width="100" height="100" />     
     
-    <agent img="box.png" x="10" y="100" width="50" height="50" />
-    <agent img="box.png" x="65" y="100" width="50" height="50" />
+    
   
     <agent img="cavaleiro.png" x="120" y="75" width="80" height="150" />
     
@@ -169,7 +168,8 @@
     
       <after-chestopen y="100" /> 
     </agent> 
-        
+    <agent img="box.png" x="10" y="100" width="50" height="50" />
+    <agent img="box.png" x="65" y="100" width="50" height="50" />    
     <agent img="box.png" x="20" y="150" width="50" height="50" draggable="true" />
     
     <agent 
