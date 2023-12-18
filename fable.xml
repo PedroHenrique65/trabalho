@@ -98,7 +98,7 @@
       height="110" on-trigger="unlocked">
     	
       <unlocked img="unlocked.png" on-touch="open" />
-      <open img="open.png" on-touch="_NEXT_PAGE" />
+      <open img="door3 (cópia).png" on-touch="_NEXT_PAGE" />
     </agent>
   
   </page>
@@ -123,7 +123,7 @@
       img="unlocked.png" x="415" y="100" width="75" 
       height="110" on-touch="open">
     	
-      <open img="open.png" on-touch="_NEXT_PAGE" />
+      <open img="door3 (cópia).png" on-touch="_NEXT_PAGE" />
     </agent>
     
     <agent img="Crystal.png" x="400" y="100" width="100" height="150" drop-zone="explode">
@@ -158,11 +158,7 @@
     <agent img="Tile (2).png" x="300" y="0" width="100" height="100" />
     <agent img="Tile (2).png" x="400" y="0" width="100" height="100" />     
     
-    
-  
     <agent img="cavaleiro.png" x="120" y="75" width="80" height="150" />
-    
-  	
     
     <agent 
       img="switchLock.png" x="40" y="100" width="20" 
@@ -179,23 +175,57 @@
       height="110" on-trigger="unlocked">
     	
       <unlocked img="unlocked.png" on-touch="open" />
-      <open img="open.png" on-touch="_NEXT_PAGE" />
+      <open img="door3 (cópia).png" on-touch="_NEXT_PAGE"/>
     </agent>
       
-    </agent>
-    
   </page>
   
-  <page background="bg.png">
+  <page background="noite_dark.png">
     
-		<agent img="1.png" x="0" y="0" width="100" height="100" />
-    <agent img="2.png" x="100" y="0" width="100" height="100" />
-    <agent img="2.png" x="200" y="0" width="100" height="100" />
-    <agent img="2.png" x="300" y="0" width="100" height="100" />
-    <agent img="2.png" x="400" y="0" width="100" height="100" />  
+	<agent img="Tile (1).png" x="0" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="100" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="200" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="300" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="400" y="0" width="100" height="100" /> 
+
+    <agent img="cavaleiro.png" x="10" y="75" width="80" height="150" />
+    <agent img="torre.png" x="320" y="75" width="300" height="400" />
+    <agent img="princesa.png" x="430" y="300" width="80" height="150" />
     
-    <agent text="FIM" x="190" y="220" font-size="70" />
+      
+    <agent text="A princesa está na torre, preciso matar os dagrões para salva-la." x="15" y="460" color="white"/>
+
+      <agent img="SignArrow.png" x="400" y="100" width="50" height="50" on-touch="_NEXT_PAGE" />
+        <agent img="imagem_2021-12-27_120342-removebg-preview.png" x="150" y="70" width="300" height="200" on-touch="destruido">
+      <destruido img="Skeleton.png" x="200" y="90" width="80" height="40"/>
+    </agent>
+      
+    <agent text="x" x="-100" y="-100"/>
+        <agent img="imagem_2021-12-27_120342-removebg-preview.png" x="250" y="70" width="300" height="200" on-touch="destruido">
+      <destruido img="Skeleton.png" x="300" y="90" width="80" height="40"/>
+    </agent>
+
+    <agent text="x" x="-100" y="-100"/>
+        <agent img="imagem_2021-12-27_120342-removebg-preview.png" x="350" y="70" width="300" height="200" on-touch="destruido">
+      <destruido img="Skeleton.png" x="400" y="90" width="80" height="40"/>
+    </agent>
+      
+  </page>
+
+    <page background="noite_dark.png">
     
+	<agent img="Tile (1).png" x="0" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="100" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="200" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="300" y="0" width="100" height="100" />
+    <agent img="Tile (2).png" x="400" y="0" width="100" height="100" /> 
+
+    <agent img="cavaleiro.png" x="150" y="75" width="80" height="150" />
+    <agent img="princesa.png" x="200" y="75" width="80" height="150" />
+    
+    <agent text="Você conseguiu salva-la." x="15" y="460" color="white"/>
+    <agent text="FIM" x="190" y="250" font-size="70"/>
+      
   </page>
   
 </fable>
